@@ -16,7 +16,7 @@ def index():
     if not name:
         name = moje_imie
 
-    return get_formatted(msg, name,
+    return get_formatted(msg, moje_imie,
                          output.lower())
 
 
