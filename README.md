@@ -14,9 +14,13 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
   $ mkvirtualenv wsb-simple-flask-app
+
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
   ```
+  albo z Makefile:
+
+  $ make deps 
 
   Sprawdź: [documentację virtualenvwrappera](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)s oraz [biblioteki flask](http://flask.pocoo.org).
 
